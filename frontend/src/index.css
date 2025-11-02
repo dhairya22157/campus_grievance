@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+.card { @apply max-w-md w-full mx-auto p-6 bg-white rounded-2xl shadow-md }
